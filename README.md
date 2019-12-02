@@ -34,7 +34,6 @@ for i in range(9):
 env.render()
 ```
 ## Notes
-The package in this example, `stable_baselines` requires an older version of `tensorflow`, 
-Note, `stable_baselines` requires a version of `tensorflow` < 2.0. `tensorflow==1.13.2` works for this example.
+The package in this example, `stable_baselines`, requires an older version of `tensorflow`. `tensorflow==1.13.2` works for this example.
 
-This package also downloads the MNIST datset using `pytorch` helper functions.
+`draw_gym` downloads the MNIST dataset using `pytorch` helper functions.  This should take ~100M of disk space.
